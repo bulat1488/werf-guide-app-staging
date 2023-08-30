@@ -10,3 +10,7 @@ target: backend
 image: frontend
 dockerfile: Dockerfile
 target: frontend
+
+---
+cleanup:
+  disableKubernetesBasedPolicy: true
