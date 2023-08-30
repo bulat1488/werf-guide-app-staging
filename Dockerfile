@@ -1,6 +1,3 @@
-FROM gcr.io/kubernetes-helm/tiller:v2.3.1 
-ENV KUBERNETES_MASTER 192.168.49.2:8080 
-
 FROM eclipse-temurin:11-alpine AS builder
 COPY . /src
 WORKDIR /src
